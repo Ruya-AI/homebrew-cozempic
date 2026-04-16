@@ -14,7 +14,7 @@ class Cozempic < Formula
   end
 
   test do
-    assert_match "1.7.1", shell_output("#{bin}/cozempic --version")
-    assert_match "Cozempic", shell_output("#{bin}/cozempic --help")
+    assert_match version.to_s, shell_output("#{bin}/cozempic --version")
+    assert_match "diagnose", shell_output("#{bin}/cozempic --help")
   end
 end
