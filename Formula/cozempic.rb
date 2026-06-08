@@ -3,8 +3,8 @@ class Cozempic < Formula
 
   desc "Context cleaning CLI for Claude Code — prune bloat, protect agent teams"
   homepage "https://github.com/Ruya-AI/cozempic"
-  url "https://files.pythonhosted.org/packages/c9/9d/7d68f9b197bafcf6e37aac83c2ddb410405fdbe2486ad55eaf62f306a3b3/cozempic-1.8.22.tar.gz"
-  sha256 "1db9922ca0cf955bbb1a54327b19bb2003e7a3baba7ab529c80ce8f7e9451ede"
+  url "https://files.pythonhosted.org/packages/e1/9e/830caca3932813e1edaf4c75e8d63838dc457361766ffb8dfb81decf673d/cozempic-1.8.23.tar.gz"
+  sha256 "b0fb66c8a7f17d855b2f3502b785f16734f2b3a5a153b1b7108d47c60857732e"
   license "MIT"
 
   depends_on "python@3.12"
